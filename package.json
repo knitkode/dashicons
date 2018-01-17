@@ -1,0 +1,36 @@
+{
+  "name": "@knitkode/dashicons",
+  "version": "0.0.1",
+  "description": "A package to manage WordPress dashicons",
+  "config": {
+    "slug": "dashicons",
+    "title": "Dashicons",
+    "startYear": 2018
+  },
+  "homepage": "https://knitkode.com/products/dashicons",
+  "author": {
+    "name": "KnitKode",
+    "email": "dev@knitkode.com",
+    "url": "https://knitkode.com"
+  },
+  "license": "GPLv3",
+  "private": false,
+  "repository": {
+    "url": "https://gitlab.com/knitkode/dashicons"
+  },
+  "bugs": {
+    "url": "https://github.com/knitkode/dashicons/issues",
+    "email": "dev@knitkode.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+  },
+  "dependencies": {
+    "dashicons": "http://github.com/WordPress/dashicons/tarball/master",
+    "title-case": "^2.1.1",
+  },
+  "devDependencies": {
+  }
+}
