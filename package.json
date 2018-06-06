@@ -27,7 +27,7 @@
   "scripts": {
   },
   "dependencies": {
-    "dashicons": "http://github.com/WordPress/dashicons/tarball/master",
+    "dashicons": "https://github.com/WordPress/dashicons",
     "title-case": "^2.1.1"
   },
   "devDependencies": {
