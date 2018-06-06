@@ -1,7 +1,7 @@
-import titleCase from 'title-case';
-import glyphs from './glyphs.json';
+import titleCase from 'title-case'
+import glyphs from './glyphs.json'
 import groupsNames from './groups.json'
-// import codepoints from 'dashicons/codepoints.json';
+// import codepoints from 'dashicons/codepoints.json'
 
 /**
  * Dashicons
@@ -40,8 +40,8 @@ for (let groupName in groupsNames) {
       // let codepoint = codepoints[name];
       let glyph = glyphs[name];
       let label = titleCase(name);
-      let svg = require(`dashicons/svg-min/${name}.svg`);
-      let svgHtml = `<svg xmlns="${svg.attributes.xmlns}" viewBox="${svg.attributes.viewBox}">${svg.content}</svg>`;
+      // let svg = require(`dashicons/svg-min/${name}.svg`);
+      // let svgHtml = `<svg xmlns="${svg.attributes.xmlns}" viewBox="${svg.attributes.viewBox}">${svg.content}</svg>`;
 
       // this is the icon object model
       let icon = {
@@ -49,8 +49,8 @@ for (let groupName in groupsNames) {
         glyph,
         // codepoint,
         label,
-        svg,
-        svgHtml,
+        // svg,
+        // svgHtml,
       };
 
       list.push(icon);
@@ -70,35 +70,36 @@ map = mapByName;
 /**
  * @type {Array}
  */
-export {list};
+export {list}
 
 /**
  * @type {Array}
  */
-export {listByGroups};
+export {listByGroups}
 
 /**
  * @type {Object}
  */
-export {map};
+export {map}
 
 /**
  * @type {Object}
  */
-export {mapByName};
+export {mapByName}
 
 /**
  * @type {Object}
  */
-export {mapByGlyph};
+export {mapByGlyph}
 
 /**
  * @type {Object}
  */
-export {mapByGroups};
+export {mapByGroups}
 
 /**
  * Angular transform to render the svg as html with `ng-bind-html`
+ *
  * @param  {Array|Object} target
  * @param  {Object}       $sce
  * @return {Array|Object}
@@ -135,4 +136,4 @@ export default {
   mapByName,
   mapByGlyph,
   mapByGroups,
-};
+}
