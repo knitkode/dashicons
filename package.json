@@ -14,6 +14,7 @@
     "url": "https://knitkode.com"
   },
   "license": "MIT",
+  "private": false,
   "repository": {
     "url": "https://github.com/knitkode/dashicons"
   },
