@@ -187,15 +187,8 @@
     "cloud",
     "translation"
   ],
-  "taxonomies": [
-    "tag",
-    "category"
-  ],
-  "widgets": [
-    "archive",
-    "tagcloud",
-    "text"
-  ],
+  "taxonomies": ["tag", "category"],
+  "widgets": ["archive", "tagcloud", "text"],
   "notifications": [
     "yes",
     "no",

@@ -24,12 +24,10 @@
   "engines": {
     "node": ">=8"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "dashicons": "https://github.com/WordPress/dashicons",
     "title-case": "^2.1.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
