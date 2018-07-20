@@ -1,13 +1,13 @@
 {
   "name": "@knitkode/dashicons",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A package to manage WordPress dashicons",
   "config": {
     "slug": "dashicons",
     "title": "Dashicons",
     "startYear": 2018
   },
-  "homepage": "https://knitkode.com/products/dashicons",
+  "homepage": "https://github.com/knitkode/dashicons",
   "author": {
     "name": "KnitKode",
     "email": "dev@knitkode.com",
@@ -26,8 +26,9 @@
   },
   "scripts": {},
   "dependencies": {
-    "dashicons": "https://github.com/WordPress/dashicons",
     "title-case": "^2.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "dashicons": "https://github.com/WordPress/dashicons"
+  }
 }
