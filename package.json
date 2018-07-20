@@ -1,6 +1,6 @@
 {
   "name": "@knitkode/dashicons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package to manage WordPress dashicons",
   "config": {
     "slug": "dashicons",
@@ -14,7 +14,6 @@
     "url": "https://knitkode.com"
   },
   "license": "MIT",
-  "private": false,
   "repository": {
     "url": "https://github.com/knitkode/dashicons"
   },
@@ -27,9 +26,9 @@
   },
   "scripts": {},
   "dependencies": {
-    "title-case": "^2.1.1"
+    "title-case": "^2.1.1",
+    "dashicons": "https://github.com/WordPress/dashicons"
   },
   "devDependencies": {
-    "dashicons": "https://github.com/WordPress/dashicons"
   }
 }
