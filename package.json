@@ -1,6 +1,6 @@
 {
   "name": "@knitkode/dashicons",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "A package to manage WordPress dashicons",
   "config": {
     "slug": "dashicons",
@@ -26,8 +26,7 @@
   },
   "scripts": {
     "copy-svg": "cp -r ./node_modules/dashicons/svg-min ./svg",
-    "prepare": "npm run copy-svg",
-    "postinstall": "npm run copy-svg"
+    "prepare": "npm run copy-svg"
   },
   "dependencies": {
     "title-case": "2.1.x"
