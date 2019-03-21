@@ -1,11 +1,17 @@
 {
   "name": "@knitkode/dashicons",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "description": "A package to manage WordPress dashicons",
   "config": {
     "slug": "dashicons",
     "title": "Dashicons",
-    "startYear": 2018
+    "startYear": 2018,
+    "TODO": [
+      "We need to copy this package within the CRA src folder in order to make",
+      "the svg rendering works. It cannot be installed as a normal package and",
+      "just stay in the node_modules folder...",
+      "@see https://github.com/boopathi/react-svg-loader/issues/197",
+    ]
   },
   "homepage": "https://github.com/knitkode/dashicons",
   "author": {
